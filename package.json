@@ -1,14 +1,24 @@
 {
-  "name": "generator-botbuilder-for-coco",
+  "name": "generator-msbf-watson-coco",
   "version": "1.0.0",
-  "description": "A yeoman generator for creating bots built with Bot Framework v4, for CoCo",
-  "homepage": "https://github.com/ConversationalComponents/yeoman-MSBF-Watson",
+  "description": "A yeoman generator for creating bots built with Bot Framework v4, for Watson and CoCo",
+  "homepage": "https://github.com/ConversationalComponents/yeoman-MSBF-Watson#readme",
   "author": {
     "name": "alex@a-i.com",
     "url": "http://conversationalcomponents.com"
   },
-  "license": "SEE LICENSE IN LICENSE.md",
-  "repository": "https://github.com/ConversationalComponents/yeoman-MSBF-Watson",
+  "licenses": [
+    {
+      "license": "MIT"
+    },
+    {
+      "license": "SEE LICENSE IN LICENSE.md"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConversationalComponents/yeoman-MSBF-Watson.git"
+  },
   "files": [
     "components",
     "generators"
