@@ -13,4 +13,6 @@ Create your bot by running `yo msbf-watson-coco`
 
 Follow the prompts
 
+For a good chat window along with a local implementation of Direct Line, please [clone this repo](https://github.com/ConversationalComponents/msbf-local-direct-line-and-client)
+ 
 Have fun :D
