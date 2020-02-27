@@ -2,7 +2,17 @@
 
 <%= description %>
 
-This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
+This bot has been created using [Bot Framework](https://dev.botframework.com), [Watson](https://www.ibm.com/watson) and [Conversational Component](https://www.conversationalcomponents.com)
+it shows how to create a simple bot that accepts input from the user, and returns a response from an arbitrary responder. The example comes with a simple switch for responders (switchResponders function in ResponderBot class), and a small selection of responders in /responders.
+
+## Responders
+Responders are functions that take a MSBF TurnContext object and return an object with a text reply and responder-specific data.
+
+initCocoResponder() returns a reponder connected to a Conversational Component. The example provided connects to [Namer component](https://cocohub.ai/blueprint/namer_vp3/about). Change componentId in initCocoResponder to use a different component.
+
+initWatsonResponder() returns a responder connected to a Watson assistant with no skills. Change url, apiKey and assistantId in initWatsonResponder to use your own. 
+
+initDefaultResponder() returns a responder that echoes user's text  back to them.
 
 ## Prerequisites
 
